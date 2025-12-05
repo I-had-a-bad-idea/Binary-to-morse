@@ -1,6 +1,6 @@
 # Binary-to-morse
 
-Listen to your favourite executables. Converts binary into morse and plays it.
+Listen to your favourite executables. Converts binary into morse and plays it. Sounds terrible but is fun.
 
 ## Description
 
@@ -15,7 +15,7 @@ The script can either play the Morse code as actual audio tones (if PyAudio is i
 - Reads binary files and converts them to Morse code
 - Audio playback support (requires PyAudio)
 - Visual fallback mode if audio is not available
-- Limits playback to manageable chunks (first 50 bytes)
+- Very fast playback speed for quick listening, but this makes it sound quite noisy
 - Command-line interface
 
 ## Requirements
